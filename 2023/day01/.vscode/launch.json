@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/habibayoub/projects/AdventofCode/2023/day01",
+      "program": "/Users/habibayoub/projects/AdventofCode/2023/day01/build/Debug/outDebug"
+    }
+  ]
+}
