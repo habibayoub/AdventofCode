@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/habibayoub/projects/AdventofCode/2023/day01",
-      "program": "/Users/habibayoub/projects/AdventofCode/2023/day01/build/Debug/outDebug"
+      "cwd": "/Users/habibayoub/projects/AdventofCode/2023/day02",
+      "program": "/Users/habibayoub/projects/AdventofCode/2023/day02/build/Debug/outDebug"
     }
   ]
 }
