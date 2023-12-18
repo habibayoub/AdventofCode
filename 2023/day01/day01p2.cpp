@@ -21,7 +21,7 @@ void processLine(string& line, int& total) {
             number += c;
         }
     }
-    total += (number.length() == 1) ? stoi(number + number) : stoi(number.substr(0, 1) + "" + number.substr(number.length() - 1, 1));
+    total += (number.length() == 1) ? (number[0] - '0')*10 + number[0] - '0' : (number[0] - '0')*10 + (number[number.length()-1] - '0');
 }
 
 int main() {
