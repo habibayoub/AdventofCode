@@ -10,7 +10,7 @@ void findSum(int& red, int& blue, int& green, int& sumOfPower) {
     sumOfPower += (red) * (blue) * (green);
 }
 
-void processLine(const string& line, int& sumOfPower, int id) {
+void processLine(const string& line, int& sumOfPower) {
 
     int red = 0;
     int blue = 0;
@@ -55,12 +55,10 @@ void processLine(const string& line, int& sumOfPower, int id) {
 int main(){
     string line;
     int sumOfPower = 0;
-    int id = 1;
     ifstream file("input.txt");
     if (file.is_open()) {
         while (getline(file, line)) {
-            processLine(line, sumOfPower, id);
-            id++;
+            processLine(line, sumOfPower);
         }
         file.close();
     }
